@@ -3,8 +3,8 @@ const Web3 = require('web3')
 const { interface, bytecode} = require('./compile')
 
 const provider = new HDWalletProvider(
-    'avocado tail please around gentle carpet tissue shove robot relax chair awake',
-    'https://rinkeby.infura.io/v3/47a0e2cbbe91445c83c85e45db67b090'
+    'Your private key here',
+    'Your infura.io project link'
 )
 
 const web3 = new Web3(provider)
